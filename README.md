@@ -41,6 +41,12 @@ pip install msgpack
 pip install tensorflow
 ```
 
+### Wandb
+```
+pip install wandb
+wandb login
+```
+
 
 ## Sudo Access
 If it's a completely new server and we have sudo access, then first run
