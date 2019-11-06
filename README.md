@@ -1,6 +1,23 @@
 # Machine Setup
 
+Steps to setup when 
+
 ## Local Setup
+
+### Vim
+Run
+```
+./vim.sh
+```
+This will clone the [Vundle](https://github.com/VundleVim/Vundle.vim.git) repository and install the plugins specified in the `.vimrc` file.
+
+### Git
+
+```
+git config --global core.editor "vim"
+git config --global user.name "$NAME"
+git config --global user.email "$EMAIL"
+```
 
 ### Anaconda
 
@@ -15,3 +32,32 @@ export PATH="/Users/timhsieh/anaconda3/bin:$PATH"
 if it's not added automatically.
 
 
+### Pytorch
+```
+conda install -y pytorch torchvision -c pytorch
+```
+
+### Tensorflow
+```
+pip install msgpack
+pip install tensorflow
+```
+
+
+## Sudo Access
+If it's a completely new server and we have sudo access, then first run
+```
+./basics.sh
+```
+
+## CUDA
+Check the latest version. Currently CUDA 9.
+```
+./cuda.sh
+```
+
+## cuDNN
+First download the latest cudnn packages. Then,
+```
+./cudnn.sh
+```
