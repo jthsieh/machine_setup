@@ -1,4 +1,4 @@
 #!/bin/sh
 
 conda update conda
-conda install pytorch torchvision -c pytorch
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch

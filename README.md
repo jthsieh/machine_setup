@@ -32,7 +32,7 @@ export PATH="/Users/timhsieh/anaconda3/bin:$PATH"
 
 ### Pytorch
 ```
-conda install -y pytorch torchvision -c pytorch
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 
 ### Tensorflow
