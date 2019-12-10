@@ -1,8 +1,8 @@
 # Machine Setup
 
-Steps to setup when 
+Steps to setup when you get a new machine. Mainly for machine learning research.
 
-## Local Setup
+## Local Setup (Linux, MacOS)
 
 ### Vim
 ```
@@ -24,7 +24,7 @@ Download [Anaconda](https://www.anaconda.com/distribution/), then
 ```
 bash ~/Anaconda3-2019.10-Linux-x86_64.sh
 ```
-Open `~/.bashrc` and add the following line (if not added automatically)
+Open `~/.bashrc` (Linux) or `.bash_profile` (MacOS) and add the following line (if not added automatically)
 ```
 export PATH="/Users/timhsieh/anaconda3/bin:$PATH"
 ```
@@ -47,8 +47,23 @@ pip install wandb
 wandb login
 ```
 
+## MacOS
 
-## Sudo Access
+[This guide](https://sourabhbajaj.com/mac-setup/) is a nice setup guide for macOS, including Homebrew, iTerm2, etc.
+
+### iTerm2
+
+Install [iTerm2](https://iterm2.com/). See [the guide](https://sourabhbajaj.com/mac-setup/iTerm/).
+```
+brew cask install iterm2
+```
+zsh
+```
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+## CUDA (need sudo access)
 If it's a completely new server and we have sudo access, then first run
 ```
 ./basics.sh
