@@ -1,0 +1,22 @@
+{
+    "vim.vimrc.enable": true,
+    "editor.wordWrap": "on",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        },
+        {
+            "before": ["k"],
+            "after": ["g", "k"]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#262626",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238",
+    },
+    "workbench.colorTheme": "Dracula Soft",
+}

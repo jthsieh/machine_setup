@@ -51,6 +51,20 @@ wandb login
 
 [This guide](https://sourabhbajaj.com/mac-setup/) is a nice setup guide for macOS, including Homebrew, iTerm2, etc.
 
+### VS Code
+
+Install [VS Code](https://code.visualstudio.com/).
+Extensions: [Vim](https://github.com/VSCodeVim/Vim), [LaTex Workshop](https://github.com/James-Yu/LaTeX-Workshop), etc.
+
+Setup VS Code settings and keyboard shortcuts: `settings.json` and `keybindings.json`.
+
+To enable key-repeating execute the following in your Terminal and restart VS Code:
+```
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```
+
+
+
 ### iTerm2
 
 Install [iTerm2](https://iterm2.com/). See [the guide](https://sourabhbajaj.com/mac-setup/iTerm/).
