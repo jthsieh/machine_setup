@@ -1,4 +1,44 @@
 // Place your key bindings in this file to override the defaults
 [
-    { "key": "cmd+n", "command": "explorer.newFile" }
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+b",
+        "when": "editorLangId == 'latex'",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "name": "textbf"
+        }
+    },
+    {
+        "key": "cmd+i",
+        "when": "editorLangId == 'latex'",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "name": "textit"
+        }
+    },
+    {
+        "key": "cmd+m",
+        "when": "editorLangId == 'latex'",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "name": "textnormal"
+        }
+    },
 ]

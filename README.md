@@ -54,9 +54,10 @@ wandb login
 ### VS Code
 
 Install [VS Code](https://code.visualstudio.com/).
-Extensions: [Vim](https://github.com/VSCodeVim/Vim), [LaTex Workshop](https://github.com/James-Yu/LaTeX-Workshop), etc.
+Extensions: [Vim](https://github.com/VSCodeVim/Vim), [LaTex Workshop](https://github.com/James-Yu/LaTeX-Workshop), [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker), [Dracula](https://draculatheme.com/visual-studio-code), etc.
 
 Setup VS Code settings and keyboard shortcuts: `settings.json` and `keybindings.json`.
+These files are located in `~/Library/Application\ Support/Code/User/`, but it is easier to open and edit them directly in VS Code.
 
 To enable key-repeating execute the following in your Terminal and restart VS Code:
 ```

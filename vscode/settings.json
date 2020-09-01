@@ -1,6 +1,7 @@
 {
-    "vim.vimrc.enable": true,
     "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "vim.vimrc.enable": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["j"],
@@ -12,11 +13,26 @@
         }
     ],
     "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.outDir": "%DIR%/output",
     "workbench.colorCustomizations": {
         "statusBar.background": "#262626",
         "statusBar.noFolderBackground": "#212121",
         "statusBar.debuggingBackground": "#263238",
     },
     "workbench.colorTheme": "Dracula Soft",
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.userWords": [
+        "Rademacher",
+        "covariate",
+        "covariates",
+        "dataset",
+        "hsieh",
+        "multiset",
+        "qubit",
+        "qubits",
+        "semidefinite",
+        "subgraph",
+        "supremum",
+        "treewidth"
+    ],
 }
