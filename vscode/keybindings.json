@@ -30,7 +30,7 @@
         "when": "editorLangId == 'latex'",
         "command": "editor.action.insertSnippet",
         "args": {
-            "name": "textit"
+            "name": "emph"
         }
     },
     {
