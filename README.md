@@ -17,6 +17,10 @@ git config --global core.editor "vim"
 git config --global user.name "$NAME"
 git config --global user.email "$EMAIL"
 ```
+Create a `~/.gitignore_global` file (ex. add `.DS_Store` for Mac), then
+```
+git config --global core.excludesfile ~/.gitignore_global
+```
 
 ### Anaconda
 
@@ -62,9 +66,16 @@ These files are located in `~/Library/Application\ Support/Code/User/`, but it i
 To enable key-repeating execute the following in your Terminal and restart VS Code:
 ```
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 ```
 
+### LaTeX
 
+Download [Tex Live](https://www.tug.org/texlive/).
+Add the following to `.bash_profile`:
+```
+export PATH="/Library/TeX/texbin:$PATH"
+```
 
 ### iTerm2
 
