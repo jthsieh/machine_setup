@@ -30,7 +30,7 @@ bash ~/Anaconda3-2019.10-Linux-x86_64.sh
 ```
 Open `~/.bashrc` (Linux) or `.bash_profile` (MacOS) and add the following line (if not added automatically)
 ```
-export PATH="/Users/timhsieh/anaconda3/bin:$PATH"
+export PATH="~/anaconda3/bin:$PATH"
 ```
 
 Next, add the line
