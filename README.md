@@ -33,6 +33,11 @@ Open `~/.bashrc` (Linux) or `.bash_profile` (MacOS) and add the following line (
 export PATH="/Users/timhsieh/anaconda3/bin:$PATH"
 ```
 
+Next, add the line
+```
+export PYTHONSTARTUP=~/.startup.py
+```
+
 
 ### Pytorch
 ```
